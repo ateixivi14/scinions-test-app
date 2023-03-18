@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Nasalization Rg', sans-serif;                                            
+}
+
+.link {
+  font-size: larger;
+  margin-right: 20px;
+  color: rgb(159, 187, 250);
+}
+
+.link.hover {
+  border-bottom: 2px solid rgb(61, 6, 149);
+}
+
+.active {
+  font-family: 'Nasalization Rg', sans-serif;
+  font-size: large;
+  margin-right: 20px;
+  color: rgb(241, 169, 59);
+  border-bottom: 2px solid rgb(241, 169, 59);
+}
